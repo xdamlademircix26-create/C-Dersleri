@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.>
 
 int main() {
     printf("Merhaba Damla!\n");
