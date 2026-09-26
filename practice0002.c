@@ -8,6 +8,6 @@ int main() {
     printf("Sayilarin Toplami: %d\n" , toplam);
     
     return 0;
-}
+}   
 
 
