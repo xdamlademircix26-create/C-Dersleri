@@ -10,7 +10,7 @@ int main() {
     scanf("%f", &sayi2);
 
     toplam = sayi1 + sayi2;
-    printf("Girdiginiz sayilarin toplami: %d\n", toplam);
+    printf("Girdiginiz sayilarin toplami: %f\n", toplam);
 
     return 0;
 }
