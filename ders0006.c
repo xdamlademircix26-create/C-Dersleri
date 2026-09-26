@@ -16,4 +16,5 @@ int main() {
     printf("Girdiginiz sayilarin farki: %f\n", fark);
 
     return 0; 
-}
+}   
+
