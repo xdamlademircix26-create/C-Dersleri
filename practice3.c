@@ -11,5 +11,6 @@ int main() {
     toplam = sayi1 + sayi2;
     printf("Girdiginiz sayilarin toplami: %d\n", toplam);
 
-    return 0; 
+    return 0;
 }
+
