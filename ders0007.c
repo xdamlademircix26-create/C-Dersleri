@@ -16,4 +16,4 @@ int main() {
     printf("Islem sonucu ((%d -%d) + %d): %d\n", sayi1, sayi2, sayi3, islem);
 
     return 0;
-}
+}   
