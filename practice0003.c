@@ -12,5 +12,5 @@ int main() {
     printf("Girdiginiz sayilarin toplami: %d\n", toplam);
 
     return 0;
-}
+}  
 
