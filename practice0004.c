@@ -13,4 +13,5 @@ int main() {
     printf("Girdiginiz sayilarin toplami: %f\n", toplam);
 
     return 0;
-}
+}   
+ 
