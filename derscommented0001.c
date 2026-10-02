@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Calculetes the operations of four numbers
-// Takes four numbers and result their operations
+// Takes four numbers and return their operations
 int calculate_operation(int num1, int num2, int num3, int num4) { 
     return num1 - num2 * (num3 / num4);
 }
