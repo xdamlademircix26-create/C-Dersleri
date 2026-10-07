@@ -5,7 +5,7 @@
 // Note: Divisor should not be zero to prevent division error
 
 double get_quotient(int dividend, int divisor){
-    return dividend / divisor;
+    return (double)dividend / divisor;
 }
 
 int get_remainder(int dividend, int divisor) {
