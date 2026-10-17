@@ -4,7 +4,7 @@ int main() {
     float sayi1, sayi2, toplam;
 
     printf("Birinci sayiyi giriniz: ");
-    scanf("%f", &sayi1);
+    scanf("%f", &sayi1); 
 
     printf("Ikinci sayiyi giriniz: ");
     scanf("%f", &sayi2);
