@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() { 
-    int sayi1, sayi2, sayi3, fark;
+    int sayi1, sayi2, sayi3, fark; 
 
     printf("Birinci sayiyi giriniz: ");
     scanf("%d", &sayi1);
