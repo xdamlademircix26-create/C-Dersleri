@@ -2,7 +2,7 @@
 int main() { 
     int sayi1, sayi2, toplam;
 
-    printf("Birinci sayiyi giriniz: ");
+    printf("Birinci sayiyi giriniz: "); 
     scanf("%d", &sayi1);
 
     printf("Ikinci sayiyi giriniz: ");
