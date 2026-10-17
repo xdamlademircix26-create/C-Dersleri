@@ -2,7 +2,7 @@
 
 int main() { 
     printf("Merhaba Damla!\n");
-    return 0;
+    return 0; 
 } 
 
  
