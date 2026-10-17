@@ -6,7 +6,7 @@ int main() {
     printf("Boyunuzu giriniz: ");
     scanf("%f", &boy);
 
-    printf("Kilonuzu giriniz: ");
+    printf("Kilonuzu giriniz: "); 
     scanf("%f", &kilo);
 
     vki = kilo / (boy * boy);
