@@ -16,7 +16,12 @@ int main(void)
         printf("%d\n", number);
         number = number - 1;
     }
-
+    /**
+    * We might assign the number to i 
+    * int i = number;
+    * while(i <= 0){ printf(...); i = i -1 || i-- } 
+    */
+    
     printf("Loop execution completed!\n");
     return 0;
 }
