@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() { 
+int main() {  
     float en, boy, derinlik, hacim;
     float debi, saat;
 
