@@ -12,7 +12,7 @@ int main() {
     printf("Yuzde kac KDV yaziniz: ");
     scanf("%f", &KDV);
 
-    sonfiyat = (fiyat * (1 - indirim / 100)) * (1 + KDV / 100);
+    sonfiyat = (fiyat * (1 - indirim / 100)) * (1 + KDV / 100); 
     printf("Satis fiyati: %.2f\n", sonfiyat);
 
     return 0;
