@@ -2,7 +2,7 @@
 #include <math.h>
 
 
-int main() {  
+int main() {   
     double sonuc = 2 * pow(3,2) + 10;
 
     printf("Islem sonucu: %lf\n", sonuc);
