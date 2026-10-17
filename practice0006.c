@@ -3,7 +3,7 @@
 int main () { 
     float sayi1, sayi2, sayi3, sonuc;
 
-    printf("Birinci sayiyi giriniz: ");
+    printf("Birinci sayiyi giriniz: "); 
     scanf("%f", &sayi1);
 
     printf("Ikinci sayiyi giriniz: ");
