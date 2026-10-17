@@ -7,7 +7,7 @@ int main(void)
     // Get initial value input from user
     printf("Initial number: ");
     scanf("%d", &num);
-
+ 
     // Check if entered number is negative
     if (num < 0)
     { 
