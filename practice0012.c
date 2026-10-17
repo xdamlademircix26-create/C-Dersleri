@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main() {  
+int main() {   
     int sayi1, sayi2, sayi3, sayi4, sonuc2;
     double taban, us, sonuc1;
 
