@@ -13,7 +13,7 @@ int main(void)
     int attempt;
     int counter;
 
-    counter = -1; // Starts at zero to avoid avoid off-one-by-error
+    counter = 1; // Starts at zero to avoid avoid off-one-by-error
 
     // Get first attempt from user to start the while loop
     printf("Entered number: ");
