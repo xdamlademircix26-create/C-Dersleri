@@ -15,6 +15,7 @@ int main(void)
         {
             moduler = number % 10;
             printf("%d ", moduler);
+            number = number - modular;  // Unnecessary line :Int division easily eliminate ones places of number
             digitBox = digitBox + moduler;
             number = number / 10;
         }
