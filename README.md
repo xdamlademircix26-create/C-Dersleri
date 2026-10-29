@@ -1,89 +1,87 @@
+# C Programming Lessons, Practice Exercises & Projects
 
-# C Programming Lessons and Practice Exercises
-
-In this repository, you can find all the lesson codes, practice exercises, commented source files, and special projects I have written while learning the C programming language using the GCC compiler on Fedora Linux.
-
----
-
-## 📚 Lesson List (Dersler)
-
-* **ders0001.c:** Printing text to the screen
-* **ders0002.c:** Addition operation
-* **ders0003.c:** Integer addition
-* **ders0004.c:** Floating-point addition
-* **ders0005.c:** Integer subtraction
-* **ders0006.c:** Floating-point subtraction
-* **ders0007.c:** Mixed integer addition and subtraction
-* **ders0008.c:** Mixed floating-point addition and subtraction
-* **ders0009.c:** Multiplication operation
-* **ders0010.c:** Mixed addition and multiplication
-* **ders0011.c:** Division operation
-* **ders0012.c:** Mixed operations (addition, subtraction, multiplication, division)
-* **ders0012 (directory/file):** If-else lesson completion
-* **ders0013.c:** Exponentiation operation
-* **ders0014.c:** If-else lesson
-* **ders0015.c:** Exponentiation calculation using a for loop
-* **ders0016.c:** Factorial calculation using a for loop
-* **ders0017.c:** Addition operations using a for loop
+This repository contains C source code files written while learning C programming using the GCC compiler on Fedora Linux. It is organized into theoretical course lessons, practical exercises, and standalone mini-projects.
 
 ---
 
-## 💬 Commented Lessons (Yorumlu Dersler)
+## 🚀 Mini Projects
 
-* **derscommented0001.c:** Updated commentary lesson
-* **derscommented0002.c:** Division calculation with if function including detailed comments
-* **derscommented0003.c:** Practice of complicated operations with detailed comments
+Specific application and utility programs developed to solve practical problems or practice algorithms:
 
----
-
-## 🏆 Practice Exercises (Pratikler)
-
-* **fizzbuzz_checker.c:** FizzBuzz checker with modular division function
-* **leap_year.c:** Leap year calculation (formerly practicecommented0009.c)
-* **practice0001.c:** Printing text practice
-* **practice0002.c:** Addition practice
-* **practice0003.c:** Integer addition practice
-* **practice0004.c:** Floating-point addition practice
-* **practice0005.c:** Integer subtraction practice
-* **practice0006.c:** Mixed floating-point operations practice
-* **practice0007.c:** Temperature conversion
-* **practice0008.c:** BMI (Body Mass Index) calculation
-* **practice0009.c:** Swimming pool word problem
-* **practice0010.c:** Discount calculation problem
-* **practice0011.c:** Exponentiation practice
-* **practice0012.c:** Exponentiation and arithmetic operations exercise
-* **practice0013.c:** Mixed exponential and arithmetic expressions exercise
-* **practice0014.c:** Mixed operations with if-else
+* **`calculator_and_analyzer.c`**: Exam result calculator and analyzer using `if-else` conditionals.
+* **`digitalRootFAIL.c`**: Digital Root calculation algorithm (Failed/Experimental while loop practice).
+* **`fizzbuzz_checker.c`**: Classic FizzBuzz implementation utilizing the modulo operator (`%`).
+* **`getPurchaseSummary.c`**: Program to calculate and display purchasing summaries.
+* **`leap_year.c`**: Algorithm to check if a given year is a leap year.
+* **`number_prediction_game.c`**: Interactive number guessing/prediction game.
 
 ---
 
-## 📝 Commented Practice Exercises (Yorumlu Pratikler)
+## 📚 Course Lessons (`course*.c`)
 
-* **practicecommented0001.c:** Calculate operations with detailed English comments
-* **practicecommented0002.c:** Calculate division with detailed English comments
-* **practicecommented0003.c:** Calculate multiply and subtract with detailed English comments
-* **practicecommented0004.c:** Calculate division by using if function with detailed English comments
-* **practicecommented0005.c:** Practice of complicated operations with English comments
-* **practicecommented0006.c:** Compute division with if-else
-* **practicecommented0007.c:** Division by using if-else practice
-* **practicecommented0008.c:** Division by three function with if-else
+Theoretical concepts, language syntax, and basic implementation lessons:
+
+* **`course001.c`** - Saying Hello
+* **`course002.c`** - Addition Basics
+* **`course003.c`** - Practice Concept
+* **`course004.c`** - Float Addition
+* **`course005.c`** - Practice Concept
+* **`course006.c`** - Float Subtraction
+* **`course007.c`** - Practice Concept
+* **`course008.c`** - Practice Concept
+* **`course009.c`** - Multiplication
+* **`course010.c`** - Practice Concept
+* **`course011.c`** - Division
+* **`course012.c`** - Complex Practice
+* **`course013.c`** - Exponentiation using `pow()` function
+* **`course014.c`** - `if-else` Control Structures
+* **`course015.c`** - Exponentiation using `for` loop
+* **`course016.c`** - Factorial calculation using `for` loop
+* **`course017.c`** - Practice Concept
+* **`course018.c`** - Practice Concept
+* **`course021.c`** - Detailed Division
+* **`course022.c`** - `while` Loop Basics
+* **`course023.c`** - `while` Loop Applications
+* **`course024.c`** - `while` Loop Exercise
+* **`course025.c`** - `while` Loop Exercise
+* **`course026.c`** - `while` Loop Deep Dive
+* **`course027.c`** - `while` Loop Deep Dive
 
 ---
 
-## 🛠️ Special Projects & Tools
+## 🏋️‍♂️ Practice Exercises (`practice*.c`)
 
-* **calculator_and_analyzer.c:** Calculator and analyzer implemented using if-else functions.
+Hands-on problem solving and concept reinforcement exercises:
+
+* **`practice0001.c`** - Practice Hello
+* **`practice0002.c`** - Practice Addition
+* **`practice0003.c`** - Basic Practice
+* **`practice0004.c`** - Basic Practice
+* **`practice0005.c`** - Subtraction Practice
+* **`practice0006.c`** - Basic Practice
+* **`practice0007.c`** - Temperature Conversion
+* **`practice0008.c`** - BMI (VKI) Calculation
+* **`practice0009.c`** - Water Tank Problem
+* **`practice0010.c`** - Discount Calculation Problem
+* **`practice0011.c`** - Exponentiation Practice
+* **`practice0012.c`** - Exponentiation using `pow()` function
+* **`practice0013.c`** - Complex Calculation
+* **`practice0014.c`** - `if-else` Practice
+* **`practice0015.c`** - Complex Calculation
+* **`practice0016.c`** - Float Division Practice
+* **`practice0017.c`** - Calculation Practice
+* **`practice0018.c`** - Float Complex Practice
+* **`practice0019.c`** - Practice Division
+* **`practice0020.c`** - Practice Division
+* **`practice0021.c`** - Practice Division and Remainder
+* **`pracice0022.c`** / **`practice0022.c`** - `while` Loop Practice
 
 ---
 
-## 💻 Technologies and Tools Used
-* **Language:** C Programming Language
-* **Operating System:** Fedora Linux
-* **Compiler:** GCC (GNU Compiler Collection)
+## 🛠️ How to Compile & Run
 
-## 🚀 How to Run
-To compile and run any C file in your terminal, use the following commands:
+To compile any `.c` file using GCC:
 
 ```bash
-gcc file_name.c -o file_name
-./file_name
+gcc filename.c -o outputname
+./outputname
