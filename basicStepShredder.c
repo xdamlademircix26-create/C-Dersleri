@@ -10,7 +10,7 @@ scanf("%d", &number);
 while (number / 10 >= 1)
 {
     moduler = number % 10;
-    printf("Shreddered Step : %d ", moduler);
+    printf("%d ", moduler);
     number = number - moduler;
     number = number / 10;
 
