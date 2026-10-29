@@ -1,0 +1,57 @@
+#include <stdio.h>
+
+/**
+* @brief Get digital root by sum digit values of number  via while function 
+* @param number Input value from user
+* @param modulo 
+* @param digitBox The box to accummulate to modulo from number % 10
+* @param counter Variable that enables function to be continued
+* @return Calculated digital root
+*/
+
+int main(void)
+{
+    int number;
+    int digitBox = 0;
+    int counter = 0;
+    int modulo; // Add one more variable to avoid any conflict that occurs from making all operations by utilizing only number variable
+
+    // Get input number to start the while loop
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    
+    while (number / 10 >= 1)
+    {
+        modulo = number % 10;
+        digitBox = digitBox + modulo;
+        number = number - modulo;
+        number = number / 10;
+        counter++;
+        if (number / 10 < 1)
+        {
+            digitBox = digitbox + number;
+
+        }
+
+        while (digitBox / 10 >= 1)
+        {
+            number = digitBox;
+            counter = counter + 1;
+        }
+        
+    }
+
+    if(number / 10 < 1)
+    {
+        digitBox = digitBox + number;
+    }
+
+
+    printf("Step %d , sum of digit values:  ", counter);
+    printf("%d\n", digitBox);
+
+    printf("Single-Digit value:  %d\n", digitBox);
+    return 0;
+
+}    
