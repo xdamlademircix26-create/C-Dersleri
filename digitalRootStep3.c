@@ -10,12 +10,12 @@ int main(void)
 
     while(number >= 10)
     {
-        digitBox = 0;
+        digitBox = 0; //Empty the box before starting new loop 
         while(number / 10 >= 1)
         {
             moduler = number % 10;
             printf("%d ", moduler);
-            number = number - modular;  // Unnecessary line :Int division easily eliminate ones places of number
+            number = number - moduler;  // Unnecessary line :Int division easily eliminate ones places of number
             digitBox = digitBox + moduler;
             number = number / 10;
         }
@@ -28,3 +28,18 @@ int main(void)
     printf("Single-Digital Root: %d\n", digitBox);
     return 0;
 }
+/**
+* while(number >= 10)
+* {
+*   digitBox = 0; // Empty the value that provided prior loop to start new loop without any confliction
+*   while(number > 0)
+*   {
+*       moduler = number % 10;
+*       printf("%d ", moduler);
+*       digitBox = digitBox + moduler;
+*       printf("%d", digitBox);
+*       number = number / 10; // Eliminates ones place
+*       number = digitBox;    // Load the value in box into number to continue the loop
+*   }
+*   printf("Single-Digit Root: %d\n", number);
+}*/
