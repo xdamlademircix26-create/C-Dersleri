@@ -8,7 +8,7 @@ int main(void)
     printf("Enter Number: ");
     scanf("%d", &number);
 
-    while (number > 0)
+    while (number > 0) // if the condition were (number >= 0 ) , it would create infinite loop due to 0 / 10 = 0 ...
     {
         modulo = number % 10; 
         reverse = reverse * 10 + modulo; //Multiplying a number by 10 shift the steps of that number to the left and add 0 to one step
