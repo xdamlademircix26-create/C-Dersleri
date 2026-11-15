@@ -12,7 +12,7 @@ int main(void)
     originalNumber = number; // Do not lose entered value in loop!!!
     addBox = 0; // Important to get correct result
 
-    while(number >= 10)
+    while(number >= 10) // Unnecessary line to solve problem 
     {
         while (number > 0)
         {
