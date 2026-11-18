@@ -7,7 +7,7 @@ int main(void)
     printf("Enter Number: ");
     scanf("%d", &number);
 
-    printf("Divisors Of %d : ");
+    printf("Divisors Of %d : ", numberS);
     for(int i = 1; i <= number; i++)
     {
         if(number % i == 0)
