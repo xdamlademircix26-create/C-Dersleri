@@ -14,14 +14,14 @@ int main(void)
     if(scanf("%d", &categoryNumber) != 1 || categoryNumber <= 0)
     {
         printf("Invalid input value!!!\n");
-        return 1;
+        return 1; // Indicate unsuccessful program 
     }
     
     printf("Enter number of category product: ");
     if(scanf("%d", &productNumber) != 1 || productNumber <= 0)
     {
         printf("Invalid input value!!!\n");
-        return 1;
+        return 1; // Indicate unsuccessful program
     }
 
     for(int i =1; i <= categoryNumber; i++)
@@ -33,6 +33,7 @@ int main(void)
             printf("Enter category %d, product %d 's price : ", i, j);
             scanf("%d", &price);
 
+            // Provide a loop to enter valid input 
             while(price <= 0)
             {
                printf("Entered invalid value,please try again!\n");
@@ -40,12 +41,14 @@ int main(void)
                scanf("%d", &price);
             }
 
-            if(price > 0)
+            if(price > 0) 
             {
                 totalover += price;
                 totalRevenue += price;
             }
         }
+
+        // Makes comprasion by using first values rather than initilize these variables as  0 and 99999999... 
         if(i == 1)
         {
             maxCategoryRevenue = totalover;
@@ -75,3 +78,10 @@ int main(void)
     return 0;
 
 }
+
+/** We might adjust the lines between 36 and 47 as:
+* while(scanf("%d", &price) != 1 || price <= 0) // New valuation procces is triggered by the condition itself not inside the cycle
+* {
+*    printf("Entered invalid value, please try again!!!)
+*    while(getchar() != '\n') // Clear the faulty character
+*/
